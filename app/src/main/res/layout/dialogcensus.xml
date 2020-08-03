@@ -1,0 +1,2246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView2"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView158"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="* Название точки"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1.5"
+                        android:layout_gravity="center_vertical|left"
+                        android:gravity="center|center_vertical|center_horizontal" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText53"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView159"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="* Название фирмы"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1.5"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText54"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView167"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="* Адрес"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1.5"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText55"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView168"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="* Контактное лицо / тел номер"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1.5"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText56"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/linearLayout" >
+
+                    <TextView
+                        android:id="@+id/textView169"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="* Сегмент точки"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1.5"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spinner13"
+                        android:layout_gravity="center"
+                        android:gravity="center|center_vertical|center_horizontal"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView170"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Эксклюзивность"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1.5"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spinner14"
+                        android:layout_gravity="center"
+                        android:gravity="center|center_vertical|center_horizontal"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView171"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="* Сезональность"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1.5"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spinner15"
+                        android:layout_gravity="center"
+                        android:gravity="center|center_vertical|center_horizontal"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp" >
+
+                    <TextView
+                        android:id="@+id/button13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:text="GPS координаты"
+                        android:textSize="16sp"
+                        android:layout_marginRight="3dp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textIsSelectable="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView172"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Широта"
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp" />
+
+                    <TextView
+                        android:id="@+id/textView173"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Долгота"
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView174"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Кол-во дверей ХО"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1.5"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView175"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во дверей ХО EFES "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText57"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView176"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во дверей ХО SB trade "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText58"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView177"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во дверей ХО Beermaster "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText59"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView178"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во дверей ХО Ivaro "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText60"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView179"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во дверей ХО Оболонь "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText61"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView180"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во дверей ХО Другие (пивные) "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText62"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView181"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:text="Кол-во дверей ХО Другие (не пивные) "
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText63"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView182"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во дверей ХО Личные ТТ "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText64"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView183"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Кол-во кранов розлива"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1.5"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView184"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во кранов розлива EFES"
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText65"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView185"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во кранов розлива SB trade "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText66"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView186"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во кранов розлива Beermaster "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText67"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView187"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во кранов розлива Ivaro "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText68"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView188"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во кранов розлива Оболонь "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText69"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView189"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во кранов розлива Другие (пивные) "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText70"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView190"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:text="Кол-во кранов розлива Другие (не пиво) "
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText71"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView191"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во кранов розлива Личные ТТ "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText72"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView192"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во кранов розлива Вино "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText73"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView193"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Кол-во комплектов мебели "
+                        android:textSize="16dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1.5"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:maxLines="3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView194"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во комплектов мебели EFES "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText74"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView195"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во комплектов мебели Sb trade "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText75"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView196"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во комплектов мебели Beermaster "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText76"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView197"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во комплектов мебели Ivaro "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText77"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView198"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во комплектов мебели Оболонь "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText78"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView199"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во комплектов мебели Другие (пивные) "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText79"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView200"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:text="Кол-во комплектов мебели Другие (не пиво) "
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText80"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView201"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во комплектов мебели Личные ТТ "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText81"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView202"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Кол-во зонтов "
+                        android:textSize="16dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1.5"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:maxLines="3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView203"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во  зонтов EFES "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText82"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView204"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во зонтов  Sb trade "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText83"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView205"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во зонтов  Beermaster "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText84"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView206"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во зонтов Ivaro "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText85"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView207"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во зонтов  Оболонь "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText86"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView208"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во зонтов  Другие (пивные) "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText87"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView209"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:text="Кол-во зонтов  Другие (не пиво) "
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText88"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView210"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во зонтов Личные ТТ "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText89"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView211"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Кол-во МТК "
+                        android:textSize="16dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1.5"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView212"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во МТК EFES "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText90"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView213"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во МТК  Sb trade "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText91"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView214"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во МТК  Beermaster "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText92"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView215"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во МТК Ivaro "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText93"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView216"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во МТК  Оболонь "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText94"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView217"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во МТК  Другие (пивные) "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText95"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView218"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:text="Кол-во МТК  Другие (не пиво) "
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText96"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView219"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во МТК Личные ТТ "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText97"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView220"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Кол-во скю"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1.5"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView221"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во SKU EFES "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText98"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView222"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во SKU Sb trade "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText99"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView223"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во SKU  Beermaster "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText100"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView224"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во SKU Ivaro "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText101"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView225"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во SKU  Оболонь "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText102"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView226"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Кол-во SKU  Другие (пивные) "
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:layout_marginRight="3dp"
+                        android:maxLines="3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText103"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:background="@drawable/dottedborder"
+                        android:padding="10dp"
+                        android:minLines="3"
+                        android:numeric="integer" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>

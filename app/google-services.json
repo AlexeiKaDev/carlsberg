@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1092761269238",
+    "firebase_url": "https://carlsberg-5be2d.firebaseio.com",
+    "project_id": "carlsberg-5be2d",
+    "storage_bucket": "carlsberg-5be2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092761269238:android:3ce6ce1c1975c9b7",
+        "android_client_info": {
+          "package_name": "com.ak.carlsberg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092761269238-u24hi3aa6imnvj0v87dt7hlq93ad7a79.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ak.carlsberg",
+            "certificate_hash": "f7120e97ebe4f09ab9dab4da084dacdc549ee42f"
+          }
+        },
+        {
+          "client_id": "1092761269238-5t6lg7l7ft7vu94k9u0oh7kij3mgk0dm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXZ3ilPowxEch5puv5su8ojlI51U8FYeo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092761269238-5t6lg7l7ft7vu94k9u0oh7kij3mgk0dm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

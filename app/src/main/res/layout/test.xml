@@ -1,0 +1,229 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="3dp"
+    android:orientation="vertical"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="vertical" >
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttn_background"
+        android:text="@string/suggestions"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/TextView01"
+        android:layout_toEndOf="@+id/TextView01"
+        android:layout_marginLeft="3dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/buttn_background"
+        android:height="70dp"
+        android:text="@string/special_tasks"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:layout_alignRight="@+id/button1"
+        android:layout_alignEnd="@+id/button1"
+        android:layout_marginRight="3dp" />
+
+    <Button
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/buttn_grey_background"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Сегменты"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        android:textStyle="bold|normal"
+        android:width="130dp"
+        android:layout_marginLeft="2dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/TextView01"
+        android:background="@drawable/buttn_background"
+        android:height="70dp"
+        android:text="@string/prezentations"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:layout_marginLeft="2dp" />
+
+    <Button
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/buttn_grey_background"
+        android:gravity="center_vertical|center_horizontal"
+        android:height="70dp"
+        android:text="12"
+        android:textColor="@color/White"
+        android:textSize="40sp"
+        android:textStyle="normal|bold"
+        android:width="140dp"
+        android:layout_marginRight="2dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/buttn_grey_background"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/remont_xo"
+        android:textColor="@color/White"
+        android:textSize="16dp"
+        android:textStyle="normal|bold"
+        android:layout_toRightOf="@+id/button3"
+        android:layout_toEndOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/buttn_background"
+        android:height="70dp"
+        android:text="@string/visits"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:layout_marginLeft="2dp" />
+
+    <Button
+        android:id="@+id/newpoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Button02"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="3dp"
+        android:layout_toLeftOf="@+id/Button02"
+        android:background="@drawable/buttn_grey_background"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@color/White"
+        android:textSize="18dp"
+        android:textStyle="normal|bold"
+        android:layout_marginRight="2dp"
+        android:text="Census 2016" />
+
+    <Button
+        android:id="@+id/button94"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttn_grey_background"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@color/White"
+        android:textSize="18dp"
+        android:textStyle="normal|bold"
+        android:text="Бомбы"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/Button02"
+        android:layout_toStartOf="@+id/Button02"
+        android:layout_marginRight="3dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button02"
+        android:contentDescription="@string/winners"
+        android:maxHeight="237dp"
+        android:maxWidth="527dp"
+        app:srcCompat="@drawable/winners"
+        android:layout_above="@+id/button96" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/textView1"
+        android:background="@drawable/buttn_background"
+        android:height="70dp"
+        android:text="@string/sales"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        android:textStyle="bold|normal"
+        android:layout_marginRight="2dp" />
+
+    <Button
+        android:id="@+id/button97"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttn_grey_background"
+        android:text="Планограммы"
+        android:textColor="@color/White"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        android:layout_above="@+id/Button01"
+        android:layout_alignRight="@+id/Button02"
+        android:layout_alignEnd="@+id/Button02"
+        android:layout_marginBottom="3dp"
+        android:layout_toEndOf="@+id/button3"
+        android:layout_toRightOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button96"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttn_background"
+        android:text="Качественные показатели"
+        android:textColor="@color/White"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        android:layout_above="@+id/Button01"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="3dp"
+
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignEnd="@+id/button3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/Button02"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/button96"
+        app:srcCompat="@drawable/test"
+        android:layout_alignRight="@+id/button94"
+        android:layout_alignEnd="@+id/button94" />
+
+</RelativeLayout>

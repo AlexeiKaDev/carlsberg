@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center|center_vertical|center_horizontal"
+        android:layout_gravity="center"
+        android:foregroundGravity="center|center_vertical|center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Название SKU"
+            android:id="@+id/tv1"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:textStyle="bold"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/tv4"
+            android:text="Остатки"
+            android:layout_weight="1.8"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/a0"
+        android:textColor="@color/carlgreen"
+        android:singleLine="false"
+        android:background="@drawable/border" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView3" />
+
+</LinearLayout>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+		
+    <string name="app_name">Carlsberg Agent</string>
+    <string name="version">Carlsberg Agent - Verion 3.0 </string>
+    <string name="action_settings">Settings</string>
+    <string name="action_allsettings">General application settings</string>
+    <string name="about">About the application</string>
+    <string name="autor">Developer - Kevshin Alexei</string>
+    
+    <string name="exit">Exit the application</string>
+    <string name="nomonolit">Monolit Agent not found!</string>
+    
+    <string name="sales">Sales</string>
+    <string name="sales_day">Plan on days</string>
+    <string name="sales_point">Sales points</string>
+    <string name="prezentations">Prezentations</string>
+    <string name="new_folder_prezentations">Download the presentation</string>
+    <string name="SD_card_fail">No access to the SD card!</string>
+    <string name="special_tasks">Special tasks</string>
+    <string name="visits">Your visits</string>
+    <string name="suggestions">Your suggestions</string>
+    <string name="plan_enter">Insert a plan</string>   
+    
+    <color name="White">#FFFFFF</color>
+    <color name="carlgreen">#35cd12</color>
+    <color name="carlgrey">#d9dfd8</color>
+     <color name="carlorange">#fec15a</color>   
+    <color name="carlred">#ff0000</color>
+    <color name="carllightgreen">#6cff00</color>
+     <color name="textgrey">#8a8b8b</color>
+     <string name="winners">Winners</string>
+    <string name="refresh_prezentations">Refresh presentation</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    
+    <string name="work_days">Working days per month:</string>
+	<string name="work_days_left">Working days left:</string>
+	<string name="work_days_elapsed">Working days have passed:</string>
+    
+	<string name="plan">Plan:</string>
+	<string name="fact">Fact:</string>
+	<string name="implementation">Implementation:</string>
+	<string name="prognosis_ammount">Forecast Quantity:</string>
+	<string name="prognosis_percent">Forecast Percent:</string>
+	<string name="average_per_day">Average per day:</string>
+	<string name="left_per_day">AVG per day until the end of the month:</string>
+	<string name="trend_ammount">Trend Quantity:</string>
+	<string name="trend_current">The current trend:</string>
+	<string name="order_lastday">Orders for yesterday:</string>
+	<string name="order_thisday">Orders for today:</string>
+	
+	<string name="keg_plan">Keg plan:</string>
+	<string name="keg_fact">Keg fact:</string>
+	<string name="keg_implementation">Keg implementations:</string>
+	<string name="keg_prognosis_ammount">Keg forcast quantity:</string>
+	<string name="keg_prognosis_percent">Keg forcast percent:</string>
+	
+	<string name="packing_plan">Packing Plan:</string>
+	<string name="packing_fact">Packing fact:</string>
+	<string name="packing_implementation">Packing implementation:</string>
+	<string name="packing_prognosis_ammount">Packing forecast count:</string>
+	<string name="packing_prognosis_percent">Packing forecast percent:</string>
+	<string name="pdf_icon">pdf icon</string>
+	<string name="Mistake">Eror!</string>
+	<string name="connection_fail">No internet connection!</string>
+	
+	<string name="delete_file_info">Delete the file?</string>
+	
+	<string name="all_fact">Total shipping:</string>
+	<string name="distribution">Distribution:</string>
+	<string name="points_for_tasks">Select points for tasks</string>
+	<string name="points_despatched">Shipped points</string>
+	<string name="rubikons">Thresholds:</string>
+	<string-array name="rubikonss">
+    	<item>1 pc</item>
+   	 	<item>2 pc</item>
+   	 	<item>3 pc</item>
+   	 	<item>4 pc</item>
+   	 	<item>5 pc</item>
+   	 	<item>6 pc</item>
+   	 	<item>7 pc</item>
+   	 	<item>8 pc</item>
+   	 	<item>9 pc</item>
+   	 	<item>10 pc</item>
+   	 	<item>11 pc</item>
+   	 	<item>12 pc</item>
+   	 	<item>13 pc</item>
+   	 	<item>14 pc</item>
+   	 	<item>15 pc</item>
+   	 	<item>16 pc</item>
+   	 	<item>17 pc</item>
+   	 	<item>18 pc</item>
+   	 	<item>19 pc</item>
+   	 	<item>20 pc</item>
+	</string-array>
+	<string name="perescet">Recalculate</string>
+	<string name="save">Save</string>
+	<string-array name="categories_of_sales">
+    	<item>On trade</item>
+   	 	<item>RKA</item>
+   	 	<item>Off trade</item>
+   	 	<item>Export</item>
+	</string-array>
+	
+	<string-array name="two_sales">
+    	<item>Fact</item>
+   	 	<item>Fact + Orders</item>  	 	
+	</string-array>
+	
+	<!--  email -->
+	<string name="subject">The text of your offer</string>
+	<string name="send">Suggestion</string>
+	<string name="theme">Proposal for application </string>
+	<string name="cod">Employee ID: </string>
+	<string name="territoria">The territory of the employee: </string>
+	<string name="name">Name: </string>
+	
+	<string name="LangTitle">Language</string>
+	<string name="LangDialogTitle">Choose your language:</string>
+	<string name="LangSummary">You must restart the application to accept the changes.</string>
+	
+	<string-array name="entries_lang">
+  <item>Default</item>
+  <item>English</item>
+  <item>Russian</item>
+  <item>Ukrainian</item>
+  <item>Romanian</item>
+  <item>Azerbaidjani</item>
+   <item>Kazakh</item>
+   <item>Belarusian</item>
+</string-array> 
+<string-array name="entryvalues_lang">
+  <item>default</item> 
+  <item>en</item>
+  <item>ru</item>
+  <item>uk</item>
+  <item>ro</item>
+  <item>az</item>
+  <item>kk</item>
+  <item>be</item>
+</string-array>
+	
+	<!--  Визиты -->
+	<string name="total">Total</string>
+	<string name="inplane">Plan</string>	
+	<string name="inuse">Made</string>
+	<string name="ingeo">GPS</string>
+	<string name="inwait">Wait</string>
+	<string name="incancel">Cancel</string>
+	<string name="route">Results for the current week</string>
+	
+	
+	<string name="crmcod">CRM code</string>
+	<string name="pointmane">Point Name</string>	
+	<string name="orderspoint">Orders</string>
+	<string name="razniza">The Difference</string>
+	<string name="vsego_tt">Total points:</string>
+
+	<string name="mon">Mo</string>
+	<string name="tu">Tu</string>
+	<string name="th">Th</string>
+	<string name="we">We</string>
+	<string name="fr">Fr</string>
+	<string name="monday">Monday weight</string>
+	<string name="tuesday">Tuesday weight</string>
+	<string name="wednesday">Wednesday weight</string>
+	<string name="thuesday">Thuesday weight</string>
+	<string name="friday">Friday weight</string>
+			
+	<string name="day_of_month">Day of Week</string>
+	<string name="ves_day">Day weight</string>
+	<string name="count_day">Days</string>
+	<string name="plan_day">Plan for the day</string>
+	<string name="avg_day">AVG Plan</string>
+	<string name="orders_day">Orders</string>
+	<string name="percent_point">Вес тт</string>
+	<string name="plan_point">Plan</string>
+	<string name="back">Back</string>
+	<string name="last">Left:</string>
+	
+	
+	<string name="planuse">Enter your plan</string>
+	<string name="use_plan_summary">Nothing entered:</string>
+	<string name="use_plan">The current plan:</string>
+	<string name="key_serverurl">Server Address:</string>
+	<string name="serverurl">https://drive.google.com/drive/folders/0B9duVEayLLYPT3NFX3EtVm9nRHc</string>
+	<string name="key_notifi">Notifications</string>
+	<string name="notifi">Enable / Disable</string>
+	<string-array name="entries">
+		<item>Every 15 min</item>
+		<item>Every hour</item>
+		<item>Every 3 hours</item>
+		<item>Every 12 hours</item>
+	</string-array>
+	<string-array name="entry_values">
+		<item>900000</item>
+		<item>3600000</item>
+		<item>10800000</item>
+		<item>43200000</item>
+	</string-array>
+	<string-array name="spinner_sales">
+    	<item>Fact:</item>
+   	 	<item>Fact and yesterday orders</item>
+   	 	<item>Fact and today and yesterday orders</item>
+	</string-array>
+	
+	<string name="key_notifi_list">Check for updates</string>
+	<string name="notifi_list">Every 15 min</string>
+	
+	<string name="dialogdownload">Loading </string>
+	<string name="refreshes">Updates</string>
+	<string name="refreshinfo">Unfortunately there is no update...</string>
+	<string name="refreshnames">Updated: </string>
+	<string name="notifi_title">Updates Available</string>
+	<string name="notifi_prezentations">Updated presentation</string>
+	
+</resources>

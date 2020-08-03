@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="0.20"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextView07"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:layout_weight="0.25"
+                android:gravity="left|center_vertical|center_horizontal"
+                android:text="@string/day_of_month" />
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:gravity="left|center_vertical|center_horizontal"
+                android:text="@string/ves_day" />
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:gravity="left|center_vertical|center_horizontal"
+                android:text="@string/count_day" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:gravity="left|center_vertical|center_horizontal"
+                android:text="@string/plan_day" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="0.25"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextView25"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical|center_horizontal"
+                android:maxLines="1"
+                android:text="@string/mon" />
+
+            <TextView
+                android:id="@+id/TextView22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical|center_horizontal"
+                android:maxLines="1"
+                android:text="@string/mon" />
+
+            <TextView
+                android:id="@+id/TextView21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical|center_horizontal"
+                android:maxLines="1"
+                android:text="4" />
+
+            <TextView
+                android:id="@+id/TextView23"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical|center_horizontal"
+                android:maxLines="1"
+                android:text="120" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="0.25"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextView18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical|center_horizontal"
+                android:maxLines="1"
+                android:text="@string/tu" />
+
+            <TextView
+                android:id="@+id/TextView26"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical|center_horizontal"
+                android:maxLines="1"
+                android:text="@string/mon" />
+
+            <TextView
+                android:id="@+id/TextView19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical|center_horizontal"
+                android:maxLines="1"
+                android:text="4" />
+
+            <TextView
+                android:id="@+id/TextView20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginRight="3dp"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical|center_horizontal"
+                android:maxLines="1"
+                android:text="200" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="0.25"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextView14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical|center_horizontal"
+                android:maxLines="1"
+                android:text="@string/we" />
+
+            <TextView
+                android:id="@+id/TextView27"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical|center_horizontal"
+                android:maxLines="1"
+                android:text="@string/mon" />
+
+            <TextView
+                android:id="@+id/TextView15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical|center_horizontal"
+                android:maxLines="1"
+                android:text="5" />
+
+            <TextView
+                android:id="@+id/TextView16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginRight="3dp"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical|center_horizontal"
+                android:maxLines="1"
+                android:text="210" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="0.25"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical|center_horizontal"
+                android:maxLines="1"
+                android:text="@string/th" />
+
+            <TextView
+                android:id="@+id/TextView28"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical|center_horizontal"
+                android:maxLines="1"
+                android:text="@string/mon" />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical|center_horizontal"
+                android:maxLines="1"
+                android:text="3" />
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical|center_horizontal"
+                android:maxLines="1"
+                android:text="150" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="0.25"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextView13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical|center_horizontal"
+                android:maxLines="1"
+                android:text="@string/fr" />
+
+            <TextView
+                android:id="@+id/TextView29"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical|center_horizontal"
+                android:maxLines="1"
+                android:text="@string/mon" />
+
+            <TextView
+                android:id="@+id/TextView10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical|center_horizontal"
+                android:maxLines="1"
+                android:text="4" />
+
+            <TextView
+                android:id="@+id/TextView09"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginRight="3dp"
+                android:layout_weight="0.4"
+                android:gravity="center_vertical|center_horizontal"
+                android:maxLines="1"
+                android:text="120" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.17" >
+
+        <TextView
+            android:id="@+id/TextView24"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="0.20"
+            android:gravity="left|center_vertical|center_horizontal"
+            android:text="@string/pointmane" />
+
+        <TextView
+            android:id="@+id/TextView17"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/avg_day"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/TextView11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="0.25"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/percent_point"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="0.25"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/plan_point"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/TextView12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/orders_day"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewDes"
+        android:layout_width="match_parent"
+        android:layout_height="212dp"
+        android:layout_weight="0.62"
+        android:animateLayoutChanges="true"
+        android:choiceMode="multipleChoice"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:scrollbarStyle="insideOverlay" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:background="@drawable/buttn_background"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="@string/back"
+            android:textColor="@color/White"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/carlgrey" >
+
+            <TextView
+                android:id="@+id/TextView30"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/last"
+                android:textColor="@color/White"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical|center_horizontal"
+                android:text="-740.120"
+                android:textColor="@color/White"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

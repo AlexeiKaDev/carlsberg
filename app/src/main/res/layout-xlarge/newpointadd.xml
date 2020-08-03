@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:id="@+id/textView58"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="* Название точки"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1.5"
+                    android:layout_gravity="center_vertical|left"
+                    android:gravity="center|center_vertical|center_horizontal" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:id="@+id/textView59"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="* Название фирмы"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1.5"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText2"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:id="@+id/textView97"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="* Адрес"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1.5"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText3"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" >
+
+                <TextView
+                    android:id="@+id/textView99"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="* Контактное лицо / тел номер"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1.5"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText5"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:id="@+id/textView66"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="* Сегмент точки"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1.5"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner4"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp" >
+
+                <TextView
+                    android:id="@+id/textView100"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Эксклюзивность"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1.5"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner11"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp" >
+
+                <TextView
+                    android:id="@+id/textView101"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="* Сезональность"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1.5"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner12"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttn_background"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:text="Определить GPS координаты"
+                    android:textColor="@color/White"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold"
+                    android:layout_marginRight="3dp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical|center_horizontal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/textView70"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Широта"
+                    android:textSize="16dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:layout_marginRight="3dp" />
+
+                <TextView
+                    android:id="@+id/textView98"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Долгота"
+                    android:textSize="16dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:layout_marginRight="3dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp" >
+
+                <TextView
+                    android:id="@+id/textView102"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Кол-во дверей ХО"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1.5"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/textView103"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Кол-во дверей ХО EFES "
+                    android:textSize="16dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:layout_marginRight="3dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText6"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:minLines="2"
+                    android:numeric="integer" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/textView105"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Кол-во дверей ХО SB trade "
+                    android:textSize="16dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:layout_marginRight="3dp"
+                    android:maxLines="2" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText7"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:minLines="2"
+                    android:numeric="integer" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/textView107"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Кол-во дверей ХО Beermaster "
+                    android:textSize="16dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:layout_marginRight="3dp"
+                    android:maxLines="2" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText8"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:minLines="2"
+                    android:numeric="integer" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/textView109"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Кол-во дверей ХО Ivaro "
+                    android:textSize="16dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:layout_marginRight="3dp"
+                    android:maxLines="2" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText9"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:minLines="2"
+                    android:numeric="integer" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/textView111"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Кол-во дверей ХО Оболонь "
+                    android:textSize="16dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:layout_marginRight="3dp"
+                    android:maxLines="2" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText10"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:minLines="2"
+                    android:numeric="integer" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/textView113"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Кол-во дверей ХО Другие (пивные) "
+                    android:textSize="16dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:layout_marginRight="3dp"
+                    android:maxLines="2" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText11"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:minLines="2"
+                    android:numeric="integer" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/textView115"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="16dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:layout_marginRight="3dp"
+                    android:text="Кол-во дверей ХО Другие (не пивные) "
+                    android:maxLines="2" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText12"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:minLines="2"
+                    android:numeric="integer" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/textView117"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Кол-во дверей ХО Личные ТТ "
+                    android:textSize="16dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:layout_marginRight="3dp"
+                    android:maxLines="2" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText13"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:minLines="2"
+                    android:numeric="integer" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp" >
+
+                <TextView
+                    android:id="@+id/textView104"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Кол-во кранов розлива"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1.5"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/textView106"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Кол-во дверей ХО EFES "
+                    android:textSize="16dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:layout_marginRight="3dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText14"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:minLines="2"
+                    android:numeric="integer" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/textView108"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Кол-во дверей ХО SB trade "
+                    android:textSize="16dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:layout_marginRight="3dp"
+                    android:maxLines="2" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText15"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:minLines="2"
+                    android:numeric="integer" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/textView110"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Кол-во дверей ХО Beermaster "
+                    android:textSize="16dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:layout_marginRight="3dp"
+                    android:maxLines="2" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText16"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:minLines="2"
+                    android:numeric="integer" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/textView112"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Кол-во дверей ХО Ivaro "
+                    android:textSize="16dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:layout_marginRight="3dp"
+                    android:maxLines="2" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText17"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:minLines="2"
+                    android:numeric="integer" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/textView114"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Кол-во дверей ХО Оболонь "
+                    android:textSize="16dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:layout_marginRight="3dp"
+                    android:maxLines="2" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText18"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:minLines="2"
+                    android:numeric="integer" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/textView116"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Кол-во дверей ХО Другие (пивные) "
+                    android:textSize="16dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:layout_marginRight="3dp"
+                    android:maxLines="2" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText19"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:minLines="2"
+                    android:numeric="integer" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/textView118"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="16dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:layout_marginRight="3dp"
+                    android:text="Кол-во дверей ХО Другие (не пивные) "
+                    android:maxLines="2" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText20"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:minLines="2"
+                    android:numeric="integer" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/textView119"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Кол-во дверей ХО Личные ТТ "
+                    android:textSize="16dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:layout_marginRight="3dp"
+                    android:maxLines="2" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText21"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:background="@drawable/dottedborder"
+                    android:padding="10dp"
+                    android:minLines="2"
+                    android:numeric="integer" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/buttn_grey_background"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="@string/back"
+            android:textColor="@color/White"
+            android:textSize="16sp"
+            android:textStyle="normal|bold"
+            android:layout_marginRight="3dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/buttn_background"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="@string/save"
+            android:textColor="@color/White"
+            android:textSize="16sp"
+            android:textStyle="normal|bold"
+            android:layout_marginRight="3dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

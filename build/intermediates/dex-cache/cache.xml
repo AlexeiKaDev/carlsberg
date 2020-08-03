@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.1\2e66da15851f9f5b5079228f856c2f090ba98c38\gson-2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2e66da15851f9f5b5079228f856c2f090ba98c38">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\gson-2.1_cb0facc2c47cb1c77a1b83f94a3b08a1851e856e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client-android\1.22.0\7a0fe12b7d8189a821934d6f9d6586d00180e461\google-api-client-android-1.22.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7a0fe12b7d8189a821934d6f9d6586d00180e461">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\google-api-client-android-1.22.0_045a2620b3a19c1619c72989c67c1aaeda88b104.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.android\build-cache\79f400672b0352fe95eedfe65d19774668527a4e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="597d0d34e15e713c486e8f4ccf739f0c7d05bde4">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\classes_a0b37552c611dd780dafb95d5e69f3171b855f26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-android\1.22.0\6d1e1a76a16a244ab2f41775791be1dd0ec2878a\google-http-client-android-1.22.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6d1e1a76a16a244ab2f41775791be1dd0ec2878a">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\google-http-client-android-1.22.0_1f3f75e7eb1b6dbee4e6ce4f25b7fbf891e15045.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.android\build-cache\31f7eb6358ad566883213255f6bfa00a245cb3f4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\classes_15bd5f2b81b64823f32e5943940988e4fa55a259.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.22.0\244350c0c845c583717ade13f5666a452fd0cfa\google-api-client-1.22.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0244350c0c845c583717ade13f5666a452fd0cfa">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\google-api-client-1.22.0_4b4ec8c001488ba0568eedb7a090da5979a6b40e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.android\build-cache\31f7eb6358ad566883213255f6bfa00a245cb3f4\output\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_b97d1ae3ce263adc90c991e5f309d0683e284401.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.android\build-cache\2f160b8d70878e7bbaf5ce6b4e70482db8e83ef6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="54933c89f90a872aa342004e82b23e776fe12736">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\release\classes_3ec1a4112e57c723890226a78332d40acaf7b751.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.android\build-cache\9412cc3e531d535d58889e5585058907f2053493\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0e23941db151e67886844de6586e180bb2b860ad">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\classes_aa28662d801e2369565361d9dfccc587a9b24a42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.android\build-cache\84ef291554ef91e9d021e3740823338ac95e0541\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aa6a6e385297077a344e0bb95ab6c22f22119261">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\classes_2fd439e88cec4e74124a979f72c95d9b7d75b1f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.android\build-cache\4657b1525cb64de5137d7e9f6f155481abf505ca\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="657abe17c5ba58f5d24803ba303c6005b180897a">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\classes_003672ed9319a8334f6ea8908cc7d3f7afa2281f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.android\build-cache\9dffab77476ed97e2fb16e632256c02e8527134d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="688809418e4c2b5014a028c02708d6aeaba466ff">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\classes_825b30b60f0ef2534f5a4bc2ae84d5b830b5abd3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.android\build-cache\462c088dc6bc0d29cb27d10c61943129633ea0e8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="183e4fb7cf95f4fa54963cfcdaf0f4d7e2397bad">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\release\classes_5eb0da0468feb0d40db06d415143a3a4ca6b6591.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.android\build-cache\c2c636acce5a0818b9958b49852e4095b0e757b8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fe159787dd4c4bc9ed6a9d4f7430e9af1f3516c8">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\classes_edd4b75b4bc59dd54596f2eeff469ec29ffddfed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.android\build-cache\b23ad0f7ebcd8ed76dbe4548cbc4ab94a8d47e51\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="143e5647b772c08c9f0d807b24bbc0b05ff6c7d2">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\release\classes_a1a55da0dff6341ed08ca98f9a447b56a38e9ab5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.android\build-cache\cb6baedd9f0f681094409f68657da8998a4ab3b5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e0f082141b7aa90aab5d3a47ab09b0edc958f6b">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\classes_9392c544b5b2c3370bdaa2f9fbfbad0b0ca1eefc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_928b6a9af2d2aa10e48b1a011ce7c287ed657d09.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.1.3\f6c3aed1cdfa21b5c1737c915186ea93a95a58bd\jackson-core-2.1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\jackson-core-2.1.3_74c58c4e2c52dbabaf1f36348e3739a9ce4cfd01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-jdk5\17.0\463f8378feba44df7ba7cd9272d01837dad62b36\guava-jdk5-17.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="463f8378feba44df7ba7cd9272d01837dad62b36">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\guava-jdk5-17.0_d60fb9ada07d2e263c106be4e51bcc44f301730e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.gradle\caches\modules-2\files-2.1\org.jbundle.util.osgi.wrapped\org.jbundle.util.osgi.wrapped.org.apache.http.client\4.1.2\98c86e42679fe7ac066f6c242e0d14f0bce0bb7c\org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="98c86e42679fe7ac066f6c242e0d14f0bce0bb7c">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2_5dbdeb1b7ad571e4da959e6041330eda66e514d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.android\build-cache\a843c4cab56e5c1b04361ded36885e28d2cad02c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43df709c95f6b0501b3adbc7da992b6a69a03214">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\release\classes_f62a2f12149bb306c953b73cc4fcb3214e8d83df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.android\build-cache\54bbb9ca79e269f38b5468452891e798678fe3cd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\classes_65952d6f83e80571abb23f1010d94f0fd291b07e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\jsr305-1.3.9_fdac8f67dc46cf51e080dbdc3ce126c66f80a034.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.android\build-cache\1eff1a65ea3b8c2d1e4546180606add0a957ece9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d66b8668122393a15c90471c5c974c25439d193a">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\classes_456882d227fe7c2ba38455a21e26e8e7e44db49c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.22.0\d441fc58329c4a4c067acec04ac361627f66ecc8\google-http-client-1.22.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d441fc58329c4a4c067acec04ac361627f66ecc8">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\google-http-client-1.22.0_40e29f11abf3289ca3bad82ed47372c277002eba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.android\build-cache\a413eccbc053c3eb160050db301d909f8012a742\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2ed7ba48801a0a361727833ade3b6cf096968cc0">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\release\classes_fe3ca758565e5d9f3dd7476d64b911c61ab444b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.22.0\1d63f369ac78e4838a3197147012026e791008cb\google-oauth-client-1.22.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1d63f369ac78e4838a3197147012026e791008cb">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\google-oauth-client-1.22.0_c9ae7eeb572bc4361d3efc35e719805aab431a73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.android\build-cache\40ea8fb3ec9866d99d9c740b38fa98e4b90a5a22\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c76804333008c855433cad5cfd1256e86045e97b">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\release\classes_3d9b902304a412887ce8ae2d0866139639098c82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.gradle\caches\modules-2\files-2.1\com.google.apis\google-api-services-drive\v3-rev39-1.22.0\14de7715f815e2dfe48e61a839ca1e87e5a85cd8\google-api-services-drive-v3-rev39-1.22.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="14de7715f815e2dfe48e61a839ca1e87e5a85cd8">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\google-api-services-drive-v3-rev39-1.22.0_f85df26fe0ab8f4bdc7fbe06f57ce66ce1c33656.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.android\build-cache\c85d94e9e5db1e5e1e77d64563ba915dd2c959c4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\classes_07b5813df11964acdb4a32a0332a3e01fd49dd4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.22.0\cc014d64ae11117e159d334c99d9c246d9b36f44\google-http-client-jackson2-1.22.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cc014d64ae11117e159d334c99d9c246d9b36f44">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\google-http-client-jackson2-1.22.0_a3cdabb6f84d103a3eaff73c151f7ddbf5d4ea0f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-gson\1.19.0\b3cdefb990d5212bb2a130525b20e2c44aeffc4c\google-http-client-gson-1.19.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b3cdefb990d5212bb2a130525b20e2c44aeffc4c">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\google-http-client-gson-1.19.0_509ac6464b7861d4f0eb5a877295d1132e580389.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.android\build-cache\16beb3fe93f2fdf5d00412996c107d11e1176b3f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\classes_66fe7e92a3b84c1cd347412d4830e8ac2a67bc91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.android\build-cache\5919d11e2528115b456a9288d8dec691e216944b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="29e4e634375ab2ed25f8db5387b564c78980422a">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\release\classes_ca69d2ebf694be5ecda50cfe9953161e2f75a598.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kusoc\.android\build-cache\0adf05108504e4ae2c3d23e702c6788469275648\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
+        <dex dex="D:\Projects\carlsberg\app\build\intermediates\pre-dexed\debug\classes_3702f3b57c66ce75ce53b082ba2977428a960885.jar" />
+    </item>
+
+</items>

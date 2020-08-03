@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ak.carlsberg"
+    android:versionCode="1"
+    android:versionName="2.0" android:installLocation="auto">
+
+    <uses-sdk
+
+        android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name="MyApplication"
+        android:enabled="true">
+        <activity
+            android:name="com.ak.carlsberg.MainActivity"
+            android:label="@string/app_name" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity android:name="PrefActivity" android:screenOrientation="portrait"  android:configChanges="locale"></activity>
+        <activity android:name="Info"  android:configChanges="locale"></activity>             
+        <service android:name="MyService" android:process=":carlsberg_agent" android:configChanges="locale"></service>
+        <activity android:name="PrezentationsActivity" android:screenOrientation="portrait"  android:configChanges="locale"></activity>
+        <activity android:name="SalesActivity" android:screenOrientation="portrait" android:configChanges="locale"></activity>
+        <activity android:name="SalaryActivity" android:screenOrientation="portrait" android:configChanges="locale"></activity>
+        <activity android:name="PointSalaryInfoActivity" android:screenOrientation="portrait" android:configChanges="locale"></activity>
+        <activity android:name="RouteActivity" android:screenOrientation="portrait" android:configChanges="locale" android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name="SinhrActivity" android:screenOrientation="portrait" android:configChanges="locale" android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name="AtataActivity" android:screenOrientation="portrait" android:configChanges="locale" android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:screenOrientation="portrait" android:name="TasksActivity"  android:configChanges="locale"></activity>
+        <activity android:screenOrientation="portrait" android:name="ProsrockActivity"  android:configChanges="locale"></activity>
+        <activity android:name="VisitsActivity" android:screenOrientation="portrait"  android:configChanges="locale"></activity>
+        <activity android:name="SpointActivity" android:screenOrientation="portrait"  android:configChanges="locale"></activity>
+        <activity android:name="PlanPointActivity" android:screenOrientation="portrait"  android:configChanges="locale"></activity>
+        <activity android:screenOrientation="portrait" android:name="EmailActivity"  android:configChanges="locale"></activity>
+        <activity android:screenOrientation="portrait" android:name="RlpActivity"  android:configChanges="locale"></activity>
+        <activity android:name="SalesTabActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="SalesKegActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="SalesPackActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="PlanPointKegActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="PlanPointPackActivity" android:screenOrientation="portrait"></activity>
+        <activity android:screenOrientation="portrait" android:name="SKegpointActivity"></activity>
+        <activity android:screenOrientation="portrait" android:name="SPackpointActivity"></activity>
+        <activity android:screenOrientation="portrait" android:name="MhlActivity"></activity>
+        <activity android:screenOrientation="portrait" android:name="SegmentsActivity"></activity>
+        <receiver android:name="AlarmBroadcast" android:enabled="true"></receiver>
+
+        <meta-data android:name="com.google.android.apps.drive.APP_ID"
+            android:value="id=1020478511427" />
+
+
+    </application>
+
+</manifest>

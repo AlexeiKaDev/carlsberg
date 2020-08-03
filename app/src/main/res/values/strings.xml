@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+		
+    <string name="app_name">Carlsberg Агент</string>
+    <string name="version">Carlsberg Агент - Версия 3.0 </string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_allsettings">Общие настройки приложения</string>
+    <string name="action_plansettings">Установка/настройка планов</string>
+    <string name="about">О приложении</string>
+    <string name="autor">Разработчик - Кевшин Алексей</string>
+    
+    <string name="exit">Выход из приложения</string>
+    <string name="nomonolit">Monolit Agent не найден!</string>
+	<string name="nobase">Нет данных в базе, сделайте синхронизацию!</string>
+    
+    
+    <string name="sales">Продажи</string>
+    <string name="salesmoney">Деньги</string>
+    <string name="avgmondal">Цена за дал</string>
+    <string name="sales_day">План по дням</string>
+    <string name="sales_daykeg">План по дням кега</string>
+    <string name="sales_daypack">План по дням фасовка</string>
+    <string name="sales_point">Продажи по точкам</string>
+    <string name="prezentations">Презентации</string>
+    <string name="new_folder_prezentations">Скачайте презентации</string>
+    <string name="SD_card_fail">Нет доступа к SD карте!</string>
+    <string name="special_tasks">Дистрибьюция</string>
+    <string name="visits">Визиты</string>
+    <string name="suggestions">Ваши предложения</string>
+    <string name="plan_enter">Внести план</string>   
+    
+    <color name="White">#FFFFFF</color>
+    <color name="carlgreen">#35cd12</color>
+	<color name="carlblack">#000</color>
+    <color name="carlgrey">#d9dfd8</color>
+     <color name="carlorange">#fec15a</color>   
+    <color name="carlred">#ff0000</color>
+	<color name="carlyellow">#ffff00</color>
+    <color name="carllightgreen">#6cff00</color>
+     <color name="textgrey">#8a8b8b</color>
+     <string name="winners">Победители</string>
+    <string name="refresh_prezentations">Обновить презентации</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    
+    <string name="work_days">Рабочих дней в месяце:</string>
+	<string name="work_days_left">Рабочих дней осталось:</string>
+	<string name="work_days_elapsed">Рабочих дней прошло:</string>
+    
+	<string name="alldal">Общие продажи</string>
+	<string name="orderweek">Заказы за неделю:</string>
+	<string name="strike">Страйк райд неделя:</string>
+	<string name="strikeday">Страйк райд за сегодня:</string>
+	<string name="active">Активная база:</string>
+	<string name="plan">План:</string>
+	<string name="fact">Факт:</string>
+	<string name="implementation">Выполнение:</string>
+	<string name="prognosis_ammount">Прогноз кол-во:</string>
+	<string name="prognosis_percent">Прогноз процент:</string>
+	<string name="average_per_day">Среднее в день:</string>
+	<string name="left_per_day">Среднее в день до конца месяца:</string>
+	<string name="trend_ammount">Тренд кол-во:</string>
+	<string name="trend_current">Текущий тренд:</string>
+	<string name="order_lastday">Заказы за вчера:</string>
+	<string name="order_thisday">Заказы за сегодня:</string>
+
+	<string name="linked" translatable="false">https://www.linkedin.com/in/alexeikevshin</string>
+	<string name="facebook" translatable="false">https://www.facebook.com/AlexeiKevshin</string>
+	<string name="twitter" translatable="false">https://twitter.com/Kusocek_a</string>
+	<string name="google" translatable="false">https://plus.google.com/100548787368400516164/about</string>
+
+	<string name="remont_xo">Оборудование</string>
+	
+	
+	<string name="keg">Кега</string>
+	<string name="keg30">Отгружено 30л</string>
+	<string name="keg50">Отгружено 50л</string>
+	<string name="kegvolume">Объем кеги</string>
+	<string name="kegscu">Кеговые скю</string>
+	<string name="kegsale">Продажи по кеге</string>
+	<string name="pc">Шт</string>
+	<string name="dal">Дал</string>
+	<string name="keg_plan">Кега план:</string>
+	<string name="keg_fact">Кега факт:</string>
+	<string name="keg_implementation">Кега выполнение:</string>
+	<string name="keg_prognosis_ammount">Кега прогноз кол-во:</string>
+	<string name="keg_prognosis_percent">Кега прогноз процент:</string>
+	
+	<string name="packing">Фасовка</string>
+	<string name="packingscu">Фасовка скю</string>
+	<string name="tt">Точки</string>
+	<string name="packing_plan">Фасовка план:</string>
+	<string name="packing_fact">Фасовка факт:</string>
+	<string name="packing_implementation">Фасовка выполнение:</string>
+	<string name="packing_prognosis_ammount">Фасовка прогноз кол-во:</string>
+	<string name="packing_prognosis_percent">Фасовка прогноз процент:</string>
+	<string name="pdf_icon">pdf icon</string>
+	<string name="Mistake">Ошибка!</string>
+	<string name="connection_fail">Нет подключения к интернету!</string>
+	
+	<string name="delete_file_info">Удаляем файл?</string>
+
+	<!-- Спец задачи -->
+    <string name="all_fact">Всего отгрузка:</string>
+	<string name="distribution">Дистрибьюция:</string>
+	<string name="points_for_tasks">Выбрать базу точек</string>
+    <string name="switch_channel">Выбрать канал продаж</string>
+	<string name="points_despatched">Отгруженно:</string>
+	<string name="rubikons">Пороги:</string>
+	<string-array name="rubikonss">
+    	<item>1 шт</item>
+   	 	<item>2 шт</item>
+   	 	<item>3 шт</item>
+   	 	<item>4 шт</item>
+   	 	<item>5 шт</item>
+   	 	<item>6 шт</item>
+   	 	<item>7 шт</item>
+   	 	<item>8 шт</item>
+   	 	<item>9 шт</item>
+   	 	<item>10 шт</item>
+   	 	<item>11 шт</item>
+   	 	<item>12 шт</item>
+   	 	<item>13 шт</item>
+   	 	<item>14 шт</item>
+   	 	<item>15 шт</item>
+   	 	<item>16 шт</item>
+   	 	<item>17 шт</item>
+   	 	<item>18 шт</item>
+   	 	<item>19 шт</item>
+   	 	<item>20 шт</item>
+	</string-array>
+	<string name="perescet">Пересчитать</string>
+	<string name="save">Сохранить</string>
+	<string-array name="base_of_sales">
+	<item>Рабочая база точек</item>
+	<item>Маршрутная база точек</item>
+	<item>Активная база точек</item>
+</string-array>
+	<string-array name="Chanel">
+    <item>Все</item>
+    <item>Off trade</item>
+    <item>On trade</item>
+</string-array>
+    <string name="chanel_title">Канал продаж</string>
+    <string name="chanel_value">Выберите свой канал продаж</string>
+	<string-array name="two_sales">
+    	<item>Факт</item>
+   	 	<item>Факт + заявки</item>  	 	
+	</string-array>
+    <!--  salary -->
+    <string name="salary">Зарплата</string>
+    <string name="totalsalary">Общая зарплата</string>
+    <string name="routesalary">Текущий Маршрут</string>
+	
+	<!--  email -->
+	<string name="subject">Текст Вашего предложения</string>
+	<string name="send">Отправить</string>
+	<string name="theme">Предложение по приложению </string>
+	<string name="cod">Код сотрудника: </string>
+	<string name="territoria">Территория сотрудника: </string>
+	<string name="name">Имя: </string>
+	
+	<!-- языки -->
+	<string name="LangTitle">Язык</string>
+	<string name="LangDialogTitle">Выберите язык:</string>
+	<string name="LangSummary">Необходимо перезапустить приложение для принятия изменений.</string>
+	
+	<string-array name="entries_lang">
+  <item>По умолчанию</item>
+  <item>Английский</item>
+  <item>Русский</item>
+  <item>Украинский</item>
+  <item>Румынский</item>
+  <item>Азербайджанский</item>
+  <item>Казахский</item>
+  <item>Белорусский</item>
+</string-array> 
+<string-array name="entryvalues_lang">
+  <item>default</item> 
+  <item>en</item>
+  <item>ru</item>
+  <item>uk</item>
+  <item>ro</item>
+  <item>az</item>
+  <item>kk</item>
+  <item>be</item>
+</string-array>
+	
+	<!--  Визиты -->
+	<string name="total">Всего</string>
+	<string name="inplane">Plan</string>	
+	<string name="inuse">Made</string>
+	<string name="ingeo">GPS</string>
+	<string name="inwait">Wait</string>
+	<string name="incancel">Cancel</string>
+	<string name="route">Результаты за текущую неделю</string>
+	
+	<!--  Продажи по тт -->
+	<string name="crmcod">Код срм</string>
+	<string name="pointmane">Название тт</string>	
+	<string name="orderspoint">Заказы</string>
+	<string name="razniza">Разница</string>
+	<string name="vsego_tt">Всего тт:</string>
+	<!--  План продаж на тт -->
+	<string name="mon">Пн</string>
+	<string name="tu">Вт</string>
+	<string name="th">Чт</string>
+	<string name="we">Ср</string>
+	<string name="fr">Пт</string>
+	<string name="monday">Вес понедельника</string>
+	<string name="tuesday">Вес вторника</string>
+	<string name="wednesday">Вес среды</string>
+	<string name="thuesday">Вес четверга</string>
+	<string name="friday">Вес пятницы</string>
+			
+	<string name="day_of_month">День недели</string>
+	<string name="ves_day">Вес дня</string>
+	<string name="count_day">Кол-во дней</string>
+	<string name="plan_day">План по дням</string>
+	<string name="avg_day">Ср.План</string>
+	<string name="orders_day">Заказы</string>
+	<string name="percent_point">Вес тт</string>
+	<string name="plan_point">План</string>
+	<string name="back">Назад</string>
+	<string name="last">Осталось:</string>
+
+    <string name="justsen">Отправленно</string>
+	<string name="justsendall">Все данные отправленны</string>
+	<string name="justsend">Все данные отправленны \nНовых записей в базе нет</string>
+	<string name="deletestring">Удалить запись</string>
+	<!--  Настройки приложения -->
+	<string name="planuse">Cвой план продаж:</string>
+	<string name="use_plan_summary">Ничего не внесено:</string>
+	<string name="use_plan">Общий план продаж:</string>
+	<string name="key_serverurl">Адрес сервера:</string>
+	<string name="serverurl">https://drive.google.com/drive/folders/0B9duVEayLLYPT3NFX3EtVm9nRHc</string>
+	<string name="key_notifi">Уведомления</string>
+	<string name="notifi">Включить/Выключить</string>
+	<string-array name="spinner_sales">
+    	<item>Факт:</item>
+   	 	<item>Факт и вчерашние заказы:</item>
+   	 	<item>Факт + заказы за вчера и сегодня:</item>
+	</string-array>
+	
+	<string name="key_notifi_list">Проверка обновлений</string>
+	
+	<string name="dialogdownload">Загрузка </string>
+	<string name="refreshes">Обновления</string>
+	<string name="refreshinfo">К сожалению обновлений нет...</string>
+	<string name="refreshnames">Обновлено: </string>
+	<string name="notifi_title">Доступны обновления </string>
+	<string name="notifi_prezentations">Обновлены презентации </string>
+
+	<string-array name="season">
+    <item></item>
+    <item>Сезональность (Лето)</item>
+    <item>Сезональность (Лето + Год)</item>
+    <item>Сезональность (Год)</item>
+</string-array>
+
+    <string-array name="exlusive">
+        <item></item>
+        <item>Эксклюзив EFES</item>
+        <item>Эксклюзив Sb trade</item>
+        <item>Эксклюзив Beermaster</item>
+        <item>Эксклюзив Ivaro</item>
+        <item>Эксклюзив Оболонь</item>
+        <item>Эксклюзив Другие(пивные)</item>
+    </string-array>
+
+	
+</resources>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+		
+    <string name="app_name">Carlsberg Агент</string>
+    <string name="version">Carlsberg Агент - Версия 3.0 </string>
+    <string name="action_settings">Налаштування</string>
+    <string name="action_allsettings">Загальні налаштування програми</string>
+    <string name="about">О приложении</string>
+     <string name="autor">Разработчик - Кевшин Алексей</string>
+     
+    <string name="exit">Вихід з програми</string>
+    <string name="nomonolit">Monolit Agent не знайдений!</string>
+     
+    <string name="sales">Продажі</string>
+    <string name="sales_day">План по днях</string>
+    <string name="sales_point">Продажі по точкам</string>
+    <string name="prezentations">Презентації</string>
+    <string name="new_folder_prezentations">Скачайте презентації</string>
+    <string name="SD_card_fail">Немає доступу до SD карті!</string>
+    <string name="special_tasks">Спец завдання</string>
+    <string name="visits">Візити</string>
+    <string name="suggestions">Ваші пропозиції</string>
+    <string name="plan_enter">Внести план</string>   
+    
+    <color name="White">#FFFFFF</color>
+    <color name="carlgreen">#35cd12</color>
+    <color name="carlgrey">#d9dfd8</color>
+     <color name="carlorange">#fec15a</color>   
+    <color name="carlred">#ff0000</color>
+    <color name="carllightgreen">#6cff00</color>
+     <color name="textgrey">#8a8b8b</color>
+     <string name="winners">Переможці</string>
+    <string name="refresh_prezentations">Оновити презентації</string>
+    <string name="yes">Так</string>
+    <string name="no">Ні</string>
+    
+    <string name="work_days">Робочих днів у місяці:</string>
+	<string name="work_days_left">Робочих днів залишилося:</string>
+	<string name="work_days_elapsed">Робочих днів минуло:</string>
+    
+	<string name="plan">План:</string>
+	<string name="fact">Факт:</string>
+	<string name="implementation">Виконання:</string>
+	<string name="prognosis_ammount">Прогноз кол-во:</string>
+	<string name="prognosis_percent">Прогноз відсоток:</string>
+	<string name="average_per_day">Середнє на день:</string>
+	<string name="left_per_day">Середнє на день до кінця місяця:</string>
+	<string name="trend_ammount">Тренд кол-во:</string>
+	<string name="trend_current">Поточний тренд:</string>
+	<string name="order_lastday">Замовлення за вчора:</string>
+	<string name="order_thisday">Замовлення за сьогодні:</string>
+	
+	<string name="keg_plan">Кега план:</string>
+	<string name="keg_fact">Кега факт:</string>
+	<string name="keg_implementation">Кега виконання:</string>
+	<string name="keg_prognosis_ammount">Кега прогноз кол-во:</string>
+	<string name="keg_prognosis_percent">Кега прогноз відсоток:</string>
+	
+	<string name="packing_plan">Фасовка план:</string>
+	<string name="packing_fact">Фасовка факт:</string>
+	<string name="packing_implementation">Фасовка виконання:</string>
+	<string name="packing_prognosis_ammount">Фасовка прогноз кол-во:</string>
+	<string name="packing_prognosis_percent">Фасовка прогноз відсоток:</string>
+	<string name="pdf_icon">pdf icon</string>
+	<string name="Mistake">Помилка!</string>
+	<string name="connection_fail">Немає підключення до інтернету!</string>
+	
+	<string name="delete_file_info">Видаляємо файл?</string>
+	<!-- Спец задачи -->
+	<string name="all_fact">Всього відгрузка:</string>
+	<string name="distribution">Дистрибьюція:</string>
+	<string name="points_for_tasks">Вибрати точки для СЗ</string>
+	<string name="points_despatched">Відвантажені тт:</string>
+	<string name="rubikons">Пороги:</string>
+	<string-array name="rubikonss">
+    	<item>1 шт</item>
+   	 	<item>2 шт</item>
+   	 	<item>3 шт</item>
+   	 	<item>4 шт</item>
+   	 	<item>5 шт</item>
+   	 	<item>6 шт</item>
+   	 	<item>7 шт</item>
+   	 	<item>8 шт</item>
+   	 	<item>9 шт</item>
+   	 	<item>10 шт</item>
+   	 	<item>11 шт</item>
+   	 	<item>12 шт</item>
+   	 	<item>13 шт</item>
+   	 	<item>14 шт</item>
+   	 	<item>15 шт</item>
+   	 	<item>16 шт</item>
+   	 	<item>17 шт</item>
+   	 	<item>18 шт</item>
+   	 	<item>19 шт</item>
+   	 	<item>20 шт</item>
+	</string-array>
+	<string name="perescet">Перерахувати</string>
+	<string name="save">Зберегти</string>
+	<string-array name="categories_of_sales">
+    	<item>Он трейд</item>
+   	 	<item>РКА</item>
+   	 	<item>Офф трейд</item>
+   	 	<item>Экспорт</item>
+	</string-array>
+	
+	<string-array name="two_sales">
+    	<item>Факт</item>
+   	 	<item>Факт + Замовлення</item>  	 	
+	</string-array>
+	
+	<!--  email -->
+	<string name="subject">Текст Вашої пропозиції</string>
+	<string name="send">Відправити</string>
+	<string name="theme">Пропозиція по програмі</string>
+	<string name="cod">Код співробітника: </string>
+	<string name="territoria">Територія співробітника: </string>
+	<string name="name">імя: </string>
+	
+	<!-- языки -->
+	<string name="LangTitle">Мова</string>
+	<string name="LangDialogTitle">Оберіть мову:</string>
+	<string name="LangSummary">Необхідно перезапустити програму для прийняття змін.</string>
+	
+	<string-array name="entries_lang">
+  <item>За замовчуванням</item>
+  <item>Англійська</item>
+  <item>Русский</item>
+  <item>Український</item>
+  <item>Румунський</item>
+  <item>Азербайджанська</item>
+  <item>Казахский</item>білоруський
+  <item>Білоруський</item>
+</string-array> 
+<string-array name="entryvalues_lang">
+  <item>default</item> 
+  <item>en</item>
+  <item>ru</item>
+  <item>uk</item>
+  <item>ro</item>
+  <item>az</item>
+  <item>kk</item>
+  <item>be</item>
+</string-array>
+	
+	<!--  Визиты -->
+	<string name="total">Всього</string>
+	<string name="inplane">Plan</string>	
+	<string name="inuse">Made</string>
+	<string name="ingeo">GPS</string>
+	<string name="inwait">Wait</string>
+	<string name="incancel">Cancel</string>
+	<string name="route">Результати за поточний тиждень</string>
+	
+	<!--  Продажи по тт -->
+	<string name="crmcod">Код срм</string>
+	<string name="pointmane">Назва тт</string>	
+	<string name="orderspoint">Замовлення</string>
+	<string name="razniza">Різниця</string>
+	<string name="vsego_tt">Всього тт:</string>
+	<!--  План продаж на тт -->
+	<string name="mon">Пн</string>
+	<string name="tu">Ві</string>
+	<string name="th">Чт</string>
+	<string name="we">Се</string>
+	<string name="fr">Пт</string>
+	<string name="monday">Вага понеділка</string>
+	<string name="tuesday">Вага вівторка</string>
+	<string name="wednesday">Вага середовища</string>
+	<string name="thuesday">Вага четверга</string>
+	<string name="friday">Вага пьятниці</string>
+			
+	<string name="day_of_month">День тижня</string>
+	<string name="ves_day">Вага дня</string>
+	<string name="count_day">Кількість днів</string>
+	<string name="plan_day">План на день</string>
+	<string name="avg_day">Ср.План</string>
+	<string name="orders_day">Замовлення</string>
+	<string name="percent_point">Вага тт</string>
+	<string name="plan_point">План</string>
+	<string name="back">Назад</string>
+	<string name="last">Залишилося:</string>
+	
+	<!--  Настройки приложения -->
+	<string name="planuse">Cвой план продажів:</string>
+	<string name="use_plan_summary">Нічого не внесено:</string>
+	<string name="use_plan">Поточний план:</string>
+	<string name="key_serverurl">Адрес сервера:</string>
+	<string name="serverurl">https://drive.google.com/drive/folders/0B9duVEayLLYPT3NFX3EtVm9nRHc</string>
+	<string name="key_notifi">Повідомлення</string>
+	<string name="notifi">Увімкнути / Вимкнути</string>
+	<string-array name="entries">
+		<item>Кожні 15 хв</item>
+		<item>Кожну годину</item>
+		<item>Кожні 3 години</item>
+		<item>Кожні 12 годин</item>
+	</string-array>
+	<string-array name="entry_values">
+		<item>900000</item>
+		<item>3600000</item>
+		<item>10800000</item>
+		<item>43200000</item>
+	</string-array>
+	<string-array name="spinner_sales">
+    	<item>Факт:</item>
+   	 	<item>Факт и вчорашні замовлення:</item>
+   	 	<item>Факт + замовлення за вчора і сьогодні:</item>
+	</string-array>
+	
+	<string name="key_notifi_list">Перевірка оновлень</string>
+	<string name="notifi_list">Кожні 15 хв</string>
+	
+	<string name="dialogdownload">Завантаження </string>
+	<string name="refreshes">Оновлення</string>
+	<string name="refreshinfo">На жаль оновлень немає...</string>
+	<string name="refreshnames">Оновлене:</string>
+	<string name="notifi_title">Доступні поновлення</string>
+	<string name="notifi_prezentations">оновлені презентації</string>
+</resources>

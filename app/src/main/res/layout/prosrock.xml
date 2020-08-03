@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    tools:context=".VisitsActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="top">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:gravity="center|top">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Калькулятор предпросрока"
+                android:textSize="18dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:foregroundGravity="center|center_vertical|center_horizontal"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView597"
+                android:textColor="@color/carlgreen"
+                android:singleLine="false"
+                android:background="@drawable/border" />
+
+            <TextView
+                android:id="@+id/textView602"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Сначала вводите кол-во, а потом выбирайте sku"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:foregroundGravity="center|center_vertical|center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView593"
+                android:textColor="@color/carlgreen"
+                android:singleLine="false"
+                android:background="@drawable/border" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView590"
+            android:textColor="@color/carlgreen"
+            android:singleLine="false"
+            android:background="@drawable/border" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top">
+
+            <TextView
+                android:id="@+id/TextView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Входная цена:"
+                android:textSize="16sp"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:layout_gravity="center|left"
+                android:foregroundGravity="left"
+                android:gravity="center_vertical|center_horizontal|left"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView587"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical"
+                android:textStyle="bold"
+                android:text="0" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView591"
+            android:textColor="@color/carlgreen"
+            android:singleLine="false"
+            android:background="@drawable/border" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:id="@+id/textView585"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Введите количество:"
+                android:textSize="16sp"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|left"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText106"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:maxLength="5"
+                android:digits="0123456789"
+                android:gravity="center|center_horizontal|clip_horizontal"
+                android:text="5" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView592"
+            android:textColor="@color/carlgreen"
+            android:singleLine="false"
+            android:background="@drawable/border" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top" >
+
+            <TextView
+                android:id="@+id/textView594"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Отгрузка Львовского 1715 бут 0.5"
+                android:textSize="16sp"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal|left"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView595"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical"
+                android:textStyle="bold"
+                android:text="0" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView596"
+            android:textColor="@color/carlgreen"
+            android:singleLine="false"
+            android:background="@drawable/border" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top" >
+
+            <TextView
+                android:id="@+id/textView598"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Акционная цена:"
+                android:textSize="16sp"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|left"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView599"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical"
+                android:textStyle="bold"
+                android:text="0" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView600"
+            android:textColor="@color/carlgreen"
+            android:singleLine="false"
+            android:background="@drawable/border" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttn_background"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="Назад"
+        android:textColor="@color/White"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        android:layout_gravity="center|bottom" />
+
+</LinearLayout>

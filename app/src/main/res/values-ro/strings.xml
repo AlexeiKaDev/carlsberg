@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+		
+    <string name="app_name">Carlsberg Agent</string>
+    <string name="version">Carlsberg Agent - Versiunea 3.0 </string>
+    <string name="action_settings">Setări</string>
+    <string name="action_allsettings">Setări generale</string>
+    <string name="about">Despre aplicarea</string>
+    <string name="autor">Developer - Kevshin Alexei</string>
+    
+    <string name="exit">Ieșiți din aplicația</string>
+    <string name="nomonolit">Monolit Agent nu a fost găsit!</string>
+    
+    <string name="sales">Vînzari</string>
+    <string name="sales_day">Vînzari pe zi</string>
+    <string name="sales_point">Vînzări pe puncte</string>
+    <string name="prezentations">Prezentări</string>
+    <string name="new_folder_prezentations">Descarcați prezentările</string>
+    <string name="SD_card_fail">Nu este acces de cardul SD!</string>
+    <string name="special_tasks">Sarcini speciale</string>
+    <string name="visits">Vizite</string>
+    <string name="suggestions">Propunerile Dumnevoastre</string>
+    <string name="plan_enter">Întroduce plan</string>   
+    
+    <color name="White">#FFFFFF</color>
+    <color name="carlgreen">#35cd12</color>
+    <color name="carlgrey">#d9dfd8</color>
+     <color name="carlorange">#fec15a</color>   
+    <color name="carlred">#ff0000</color>
+    <color name="carllightgreen">#6cff00</color>
+     <color name="textgrey">#8a8b8b</color>
+     <string name="winners">Câștigători</string>
+    <string name="refresh_prezentations">Actualizează prezentări</string>
+    <string name="yes">Da</string>
+    <string name="no">Nu</string>
+    
+    <string name="work_days">Zile de lucru în luna:</string>
+	<string name="work_days_left">Zile de lucru au rămas:</string>
+	<string name="work_days_elapsed">Zile de lucru sa terminat:</string>
+    
+	<string name="plan">Plan:</string>
+	<string name="fact">Fact:</string>
+	<string name="implementation">Împlementarea:</string>
+	<string name="prognosis_ammount">Prognoză în cantitatea:</string>
+	<string name="prognosis_percent">Prognoză în procente:</string>
+	<string name="average_per_day">Mediu pe zi:</string>
+	<string name="left_per_day">Mediu zilnic până la sfârșitul lunii:</string>
+	<string name="trend_ammount">Trend Cantitate:</string>
+	<string name="trend_current">Tendința actuală:</string>
+	<string name="order_lastday">Comenzi de ieri:</string>
+	<string name="order_thisday">Comenzi de azi:</string>
+	
+	<string name="keg_plan">Planul keg:</string>
+	<string name="keg_fact">Fact keg:</string>
+	<string name="keg_implementation">Împlimentarea keg:</string>
+	<string name="keg_prognosis_ammount">Keg prognoză cantitatea:</string>
+	<string name="keg_prognosis_percent">Keg prognoză în procente:</string>
+	
+	<string name="packing_plan">Planul de ambălare:</string>
+	<string name="packing_fact">Fact ambălare:</string>
+	<string name="packing_implementation">Împlimentarea ambălare:</string>
+	<string name="packing_prognosis_ammount">Ambălarea prognoză cantitatea:</string>
+	<string name="packing_prognosis_percent">Ambălarea prognoză procent:</string>
+	<string name="pdf_icon">pdf icon</string>
+	<string name="Mistake">Eroare!</string>
+	<string name="connection_fail">Nu este conexiune la internet! </string>
+	
+	<string name="delete_file_info">Ștergem ?</string>
+	<!-- Спец задачи -->
+	<string name="all_fact">Expediere totală:</string>
+	<string name="distribution">Distribuție:</string>
+	<string name="points_for_tasks">Selectați puncte pentru SS</string>
+	<string name="points_despatched">Puncte expediate:</string>
+	<string name="rubikons">Praguri:</string>
+	<string-array name="rubikonss">
+    	<item>1 buc</item>
+   	 	<item>2 buc</item>
+   	 	<item>3 buc</item>
+   	 	<item>4 buc</item>
+   	 	<item>5 buc</item>
+   	 	<item>6 buc</item>
+   	 	<item>7 buc</item>
+   	 	<item>8 buc</item>
+   	 	<item>9 buc</item>
+   	 	<item>10 buc</item>
+   	 	<item>11 buc</item>
+   	 	<item>12 buc</item>
+   	 	<item>13 buc</item>
+   	 	<item>14 buc</item>
+   	 	<item>15 buc</item>
+   	 	<item>16 buc</item>
+   	 	<item>17 buc</item>
+   	 	<item>18 buc</item>
+   	 	<item>19 buc</item>
+   	 	<item>20 buc</item>
+	</string-array>
+	<string name="perescet">Recalculează</string>
+	<string name="save">Sălveaza</string>
+	<string-array name="categories_of_sales">
+    	<item>On treid</item>
+   	 	<item>RKA</item>
+   	 	<item>Off treid</item>
+   	 	<item>Export</item>
+	</string-array>
+	
+	<string-array name="two_sales">
+    	<item>Fact</item>
+   	 	<item>Fact + Comenzi</item>  	 	
+	</string-array>
+	
+	<!--  email -->
+	<string name="subject">Textul propunerii tale</string>
+	<string name="send">Trimite</string>
+	<string name="theme">Propunerea de aplicare </string>
+	<string name="cod">ID Angajat: </string>
+	<string name="territoria">Angajat Territory: </string>
+	<string name="name">Имя: </string>
+	
+	<!-- языки -->
+	<string name="LangTitle">Limbă</string>
+	<string name="LangDialogTitle">Alegeți limba:</string>
+	<string name="LangSummary">Trebuie să reporniți aplicația pentru a accepta modificările.</string>
+	
+	<string-array name="entries_lang">
+  <item>Implicit</item>
+  <item>Engleză</item>
+  <item>Rusă</item>
+  <item>Ucraineană</item>
+  <item>Română</item>
+  <item>Azerbaidjani</item>
+  <item>Kazahă</item>
+  <item>Belorusă</item>
+</string-array> 
+<string-array name="entryvalues_lang">
+  <item>default</item> 
+  <item>en</item>
+  <item>ru</item>
+  <item>uk</item>
+  <item>ro</item>
+  <item>az</item>
+  <item>kk</item>
+  <item>be</item>
+</string-array>
+	
+	<!--  Визиты -->
+	<string name="total">Total</string>
+	<string name="inplane">Plan</string>	
+	<string name="inuse">Made</string>
+	<string name="ingeo">GPS</string>
+	<string name="inwait">Wait</string>
+	<string name="incancel">Cancel</string>
+	<string name="route">Rezultate pentru săptămâna în curs</string>
+	
+	<!--  Продажи по тт -->
+	<string name="crmcod">Cod CRM</string>
+	<string name="pointmane">Denumirea punctului</string>	
+	<string name="orderspoint">Comenzi</string>
+	<string name="razniza">Deferința</string>
+	<string name="vsego_tt">Total puncte:</string>
+	<!--  План продаж на тт -->
+	<string name="mon">Lu</string>
+	<string name="tu">Ma</string>
+	<string name="th">Jo</string>
+	<string name="we">Mi</string>
+	<string name="fr">Vi</string>
+	<string name="monday">Greutate luni</string>
+	<string name="tuesday">Greutate marți</string>
+	<string name="wednesday">Greutate miercuri</string>
+	<string name="thuesday">Greutate joi</string>
+	<string name="friday">Greutate vineri</string>
+			
+	<string name="day_of_month">Zi a săptămânii</string>
+	<string name="ves_day">Greutatea zilei</string>
+	<string name="count_day">Numărul de zile</string>
+	<string name="plan_day">Plan pe zi</string>
+	<string name="avg_day">AVG.Plan</string>
+	<string name="orders_day">Comenzi</string>
+	<string name="percent_point">Greutate punctului</string>
+	<string name="plan_point">Plan</string>
+	<string name="back">Înnapoi</string>
+	<string name="last">Au rămas:</string>
+	
+	<!--  Настройки приложения -->
+	<string name="planuse">Al tău plan de vînzari:</string>
+	<string name="use_plan_summary">Nimic nu este întrodus:</string>
+	<string name="use_plan">Planul actual:</string>
+	<string name="key_serverurl">Adresă server:</string>
+	<string name="serverurl">https://drive.google.com/drive/folders/0B9duVEayLLYPT3NFX3EtVm9nRHc</string>
+	<string name="key_notifi">Notificări</string>
+	<string name="notifi">Activare / Dezactivare</string>
+	<string-array name="entries">
+		<item>Fiecare 15 min</item>
+		<item>Fiecare oră</item>
+		<item>Fiecare 3 ore</item>
+		<item>КFiecare 12 ore</item>
+	</string-array>
+	<string-array name="entry_values">
+		<item>900000</item>
+		<item>3600000</item>
+		<item>10800000</item>
+		<item>43200000</item>
+	</string-array>
+	<string-array name="spinner_sales">
+    	<item>Fact:</item>
+   	 	<item>Fact și comenzi de eri:</item>
+   	 	<item>Fact + comenzi de eri și azi:</item>
+	</string-array>
+	
+	<string name="key_notifi_list">Verificarea actualizărilor</string>
+	<string name="notifi_list">fiecare 15 min</string>
+	
+	<string name="dialogdownload">Descărcarea </string>
+	<string name="refreshes">Actualizări</string>
+	<string name="refreshinfo">Din păcate nu există nici o modificare ...</string>
+	<string name="refreshnames">Modificate: </string>
+	<string name="notifi_title">Actualizările sunt disponibile </string>
+	<string name="notifi_prezentations">Prezentări sunt modificate </string>
+	
+</resources>

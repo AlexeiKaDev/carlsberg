@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    tools:context=".VisitsActivity"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/buttn_background"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="MHL"
+            android:textColor="@color/White"
+            android:textSize="16sp"
+            android:textStyle="normal|bold"
+            android:layout_marginRight="2dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/buttn_grey_background"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="MHL Маршрут"
+            android:textColor="@color/White"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Всего План SKU"
+                android:textSize="16dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="8dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="16dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="8dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical|center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Всего Факт SKU"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical|center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Выполнение MHL"
+                android:textSize="16dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="8dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="16dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="8dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical|center_horizontal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView20"
+        android:textColor="@color/carlgreen"
+        android:singleLine="false"
+        android:background="@drawable/border" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="№"
+                android:textSize="16dp"
+                android:layout_gravity="center"
+                android:foregroundGravity="center_vertical|center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.6">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Название"
+                android:textSize="16dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:foregroundGravity="center_vertical|center_horizontal"
+                android:layout_gravity="center"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center|center_vertical|center_horizontal">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="План"
+                android:textSize="16dp"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:foregroundGravity="center_vertical|center_horizontal"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Факт"
+                android:textSize="16dp"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:foregroundGravity="center_vertical|center_horizontal"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="%"
+                android:textSize="16dp"
+                android:layout_gravity="center"
+                android:foregroundGravity="center_vertical|center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView15"
+        android:textColor="@color/carlgreen"
+        android:singleLine="false"
+        android:background="@drawable/border" />
+
+    <ListView
+        android:id="@+id/listViewDes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:choiceMode="multipleChoice"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:scrollbarStyle="insideOverlay"
+        android:layout_weight="1">
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/buttn_background"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="@string/perescet"
+            android:textColor="@color/White"
+            android:textSize="16sp"
+            android:textStyle="normal|bold"
+            android:layout_marginRight="2dp" />
+
+        <Button
+            android:id="@+id/point"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/buttn_grey_background"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="Отправить отчет"
+            android:textColor="@color/White"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+
+</LinearLayout>

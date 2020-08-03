@@ -1,0 +1,69 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+	
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="actionBarItemBackground">@drawable/selectable_background_carlsbergagent</item>
+<item name="popupMenuStyle">@style/PopupMenu.Carlsbergagent</item>
+<item name="dropDownListViewStyle">@style/DropDownListView.Carlsbergagent</item>
+<item name="actionBarTabStyle">@style/ActionBarTabStyle.Carlsbergagent</item>
+<item name="actionDropDownStyle">@style/DropDownNav.Carlsbergagent</item>
+<item name="actionBarStyle">@style/ActionBar.Solid.Carlsbergagent</item>
+<item name="actionModeBackground">@drawable/cab_background_top_carlsbergagent</item>
+<item name="actionModeSplitBackground">@drawable/cab_background_bottom_carlsbergagent</item>
+<item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Carlsbergagent</item>
+<!--  Light.DarkActionBar specific  -->
+<item name="actionBarWidgetTheme">@style/Theme.Carlsbergagent.Widget</item>
+</style>
+<style name="ActionBar.Solid.Carlsbergagent" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+<item name="background">@drawable/ab_background_textured_carlsbergagent</item>
+<item name="backgroundStacked">@drawable/ab_stacked_solid_carlsbergagent</item>
+<item name="backgroundSplit">@drawable/ab_background_textured_carlsbergagent</item>
+<item name="progressBarStyle">@style/ProgressBar.Carlsbergagent</item>
+</style>
+<style name="ActionBar.Transparent.Carlsbergagent" parent="@android:style/Widget.Holo.ActionBar">
+<item name="background">@drawable/ab_transparent_carlsbergagent</item>
+<item name="progressBarStyle">@style/ProgressBar.Carlsbergagent</item>
+</style>
+<style name="PopupMenu.Carlsbergagent" parent="@android:style/Widget.Holo.ListPopupWindow">
+<item name="android:popupBackground">@drawable/menu_dropdown_panel_carlsbergagent</item>
+</style>
+<style name="DropDownListView.Carlsbergagent" parent="@android:style/Widget.Holo.ListView.DropDown">
+<item name="android:listSelector">@drawable/selectable_background_carlsbergagent</item>
+</style>
+<style name="ActionBarTabStyle.Carlsbergagent" parent="@android:style/Widget.Holo.ActionBar.TabView">
+<item name="background">@drawable/tab_indicator_ab_carlsbergagent</item>
+</style>
+<style name="DropDownNav.Carlsbergagent" parent="@android:style/Widget.Holo.Spinner">
+<item name="background">@drawable/spinner_background_ab_carlsbergagent</item>
+<item name="android:popupBackground">@drawable/menu_dropdown_panel_carlsbergagent</item>
+<item name="android:dropDownSelector">@drawable/selectable_background_carlsbergagent</item>
+</style>
+<style name="ProgressBar.Carlsbergagent" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+<item name="android:progressDrawable">@drawable/progress_horizontal_carlsbergagent</item>
+</style>
+<style name="ActionButton.CloseMode.Carlsbergagent" parent="@android:style/Widget.Holo.ActionButton.CloseMode">
+<item name="background">@drawable/btn_cab_done_carlsbergagent</item>
+</style>
+<!--
+ this style is only referenced in a Light.DarkActionBar based theme 
+-->
+<style name="Theme.Carlsbergagent.Widget" parent="@android:style/Theme.Holo">
+<item name="popupMenuStyle">@style/PopupMenu.Carlsbergagent</item>
+<item name="dropDownListViewStyle">@style/DropDownListView.Carlsbergagent</item>
+    </style>
+  
+
+</resources>

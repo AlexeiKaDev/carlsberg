@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center|center_vertical|center_horizontal"
+        android:foregroundGravity="center|center_vertical|center_horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView511"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView512"
+            android:layout_weight="1"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:layout_gravity="center"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView513"
+            android:layout_weight="1"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            android:layout_gravity="center"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView514"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:textStyle="italic" />
+    </LinearLayout>
+</LinearLayout>

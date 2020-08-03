@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:layout_weight="1.29">
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="№"
+                android:layout_gravity="center"
+                android:foregroundGravity="center_vertical|center_horizontal"
+                android:gravity="center|center_vertical|center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:layout_weight="0.9">
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:text="Код CRM"
+                android:gravity="center_vertical|center_horizontal"
+                android:foregroundGravity="center_vertical|center_horizontal"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Название тт"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:foregroundGravity="center_vertical|center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center|center_vertical|center_horizontal|right"
+            android:foregroundGravity="center|center_vertical|center_horizontal|right"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Перепись"
+                android:layout_gravity="center"
+                android:foregroundGravity="center_vertical|center_horizontal"
+                android:gravity="center|center_vertical|center_horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

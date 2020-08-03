@@ -1,0 +1,3188 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="3dp"
+    android:orientation="vertical"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="vertical"
+    android:gravity="center|center_vertical|center_horizontal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foregroundGravity="center|center_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal|top"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/id0"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:layout_gravity="center"
+            android:foregroundGravity="center|center_vertical|center_horizontal">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:foregroundGravity="center|center_vertical|center_horizontal|top"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:padding="10dp"
+                android:layout_gravity="top">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Если потребление продукта осуществляется вне торговой точки (или потребление в точке меньше чем 50%) - это Off trade"
+                    android:id="@+id/textView232"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:textSize="20dp"
+                    android:foregroundGravity="center|center_vertical|center_horizontal"
+                    android:textStyle="normal"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center|center_vertical|center_horizontal">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Traditional trade"
+                        android:id="@+id/button15"
+                        android:layout_weight="1"
+                        android:padding="30dp"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        android:background="@drawable/buttn_coolselector"
+                        android:layout_marginRight="2dp" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Modern trade"
+                        android:id="@+id/button49"
+                        android:layout_weight="1"
+                        android:padding="30dp"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        android:background="@drawable/buttn_coolselector"
+                        android:layout_marginLeft="2dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Если потребление продукта больше 50% осуществляется в торговой точке - это On trade"
+                    android:id="@+id/textView231"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:textSize="20dp"
+                    android:foregroundGravity="center|center_vertical|center_horizontal"
+                    android:textStyle="normal"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="On trade"
+                    android:id="@+id/button14"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/id1"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:layout_gravity="top">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Зачем ходят в заведение? "
+                android:id="@+id/textView227"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_weight="1">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Поесть\n (больше едят, чем пьют) "
+                    android:id="@+id/radioButton"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="15dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Выпить (больше пьют, чем едят) "
+                    android:id="@+id/radioButton2"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Развлечься \n(еда и напитки - второстепенны) "
+                    android:id="@+id/radioButton3"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Путешествие / командировка / отпуск "
+                    android:id="@+id/radioButton4"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Купить разливного пива "
+                    android:id="@+id/radioButton5"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id2"
+            android:visibility="invisible"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Заведение - помещение с местами для посадки ?"
+                android:id="@+id/textView228"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:layout_gravity="top">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Да"
+                    android:id="@+id/button17"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Нет"
+                    android:id="@+id/button18"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id3"
+            android:visibility="invisible"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Уличная торговля&quot;"
+                android:id="@+id/textView229"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id4"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Моментальная подача заказа?"
+                android:id="@+id/textView233"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:layout_gravity="top" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Да"
+                    android:id="@+id/button19"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Нет"
+                    android:id="@+id/button20"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id5"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Фаст Фуд&quot;"
+                android:id="@+id/textView230"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id6"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Присутствует фокус блюдо?"
+                android:id="@+id/textView234"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:layout_gravity="top" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Суши"
+                    android:id="@+id/button21"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Пицца"
+                    android:id="@+id/button22"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Нет"
+                    android:id="@+id/button25"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id7"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Суши-бар&quot;"
+                android:id="@+id/textView235"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id8"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Цены относительно средних по региону?"
+                android:id="@+id/textView236"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:layout_gravity="top" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Средние"
+                    android:id="@+id/button23"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Высокие"
+                    android:id="@+id/button24"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id9"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Пиццерия среднего уровня&quot;"
+                android:id="@+id/textView237"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id10"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Пиццерия высокого уровня&quot;"
+                android:id="@+id/textView238"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id11"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Какой потребитель сюда ходит?"
+                android:id="@+id/textView239"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:layout_gravity="top" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Эконом класс"
+                    android:id="@+id/button26"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Средний класс +"
+                    android:id="@+id/button27"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id12"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Кафе низкого уровня&quot;"
+                android:id="@+id/textView240"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id13"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Что мотивирует сюда прийти?"
+                android:id="@+id/textView241"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:layout_gravity="top" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Еда, общение"
+                    android:id="@+id/button28"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Мода, концепция"
+                    android:id="@+id/button29"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Статус, понты, торжество"
+                    android:id="@+id/button30"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id14"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Кафе среднего уровня&quot;"
+                android:id="@+id/textView242"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id15"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Кафе высокого уровня&quot;"
+                android:id="@+id/textView243"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id16"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Ресторан&quot;"
+                android:id="@+id/textView244"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id17"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Продажа осуществляется в..."
+                android:id="@+id/textView245"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:layout_gravity="top" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Павильон, киоск"
+                    android:id="@+id/button31"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Палатка"
+                    android:id="@+id/button32"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Помещения с местами для посадки"
+                    android:id="@+id/button33"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id18"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;МАФ&quot;"
+                android:id="@+id/textView246"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id19"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Тип/размер палатки"
+                android:id="@+id/textView247"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:layout_gravity="top" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Без посадочных мест"
+                    android:id="@+id/button34"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="С посадочными местами"
+                    android:id="@+id/button35"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id20"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Сезонная торговля\n без посадочных мест&quot;"
+                android:id="@+id/textView248"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id21"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Сезонная торговля с посадочными местами&quot;"
+                android:id="@+id/textView249"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id22"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Люди приходят выпить..."
+                android:id="@+id/textView250"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:layout_gravity="top" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Кофе"
+                    android:id="@+id/button36"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Алкоголь"
+                    android:id="@+id/button37"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id23"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Кофейня&quot;"
+                android:id="@+id/textView251"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id24"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Люди приходят выпить \n Алкоголь"
+                android:id="@+id/textView252"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:layout_gravity="top" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Бадыга, очень дешево"
+                    android:id="@+id/button38"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Центр, спальный район. Прилично прийти среднему классу"
+                    android:id="@+id/button39"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Очень дорогие раскрученные места"
+                    android:id="@+id/button40"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id25"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Бар низкого уровня&quot;"
+                android:id="@+id/textView253"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id26"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Количество кранов пива"
+                android:id="@+id/textView254"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:layout_gravity="top" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="до 4-х"
+                    android:id="@+id/button41"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5-ть и более кранов"
+                    android:id="@+id/button42"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id27"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Бар среднего уровня&quot;"
+                android:id="@+id/textView255"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id28"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Паб среднего уровня&quot;"
+                android:id="@+id/textView256"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id29"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Количество кранов пива"
+                android:id="@+id/textView257"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:layout_gravity="top" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="до 4-х"
+                    android:id="@+id/button43"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5-ть и более кранов"
+                    android:id="@+id/button44"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id30"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Бар высокого уровня&quot;"
+                android:id="@+id/textView258"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id31"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Паб высокого уровня&quot;"
+                android:id="@+id/textView259"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id32"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Ночной клуб&quot;"
+                android:id="@+id/textView260"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Боулинг&quot;"
+                android:id="@+id/textView261"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Аквапарк&quot;"
+                android:id="@+id/textView262"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Кинотеатр&quot;"
+                android:id="@+id/textView263"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Бильярд&quot;"
+                android:id="@+id/textView264"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id33"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Где потребляются напитки?"
+                android:id="@+id/textView265"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:layout_gravity="top" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Транспорт"
+                    android:id="@+id/button45"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Гостиницы, где продается пиво"
+                    android:id="@+id/button46"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id34"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Транспорт&quot;"
+                android:id="@+id/textView266"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id35"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Цена за номер за ночь, лей"
+                android:id="@+id/textView267"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:layout_gravity="top" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="До 2000"
+                    android:id="@+id/button47"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2000 +"
+                    android:id="@+id/button48"
+                    android:checked="false"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:background="@drawable/buttn_coolselector"
+                    android:padding="10dp"
+                    android:layout_margin="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id36"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Гостиница среднего уровня&quot;"
+                android:id="@+id/textView268"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id37"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Гостиница высокого уровня&quot;"
+                android:id="@+id/textView269"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id38"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Пивной магазин&quot;"
+                android:id="@+id/textView270"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id39"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Тип здания..."
+                android:id="@+id/textView271"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Капитальное здание"
+                android:id="@+id/button50"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="15dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Не капитальное здание"
+                android:id="@+id/button51"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="10dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Открытое торговое место"
+                android:id="@+id/button52"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="10dp"
+                android:layout_margin="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id40"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Лоток&quot;"
+                android:id="@+id/textView272"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id41"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Где находится здание?"
+                android:id="@+id/textView273"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Строение без вывески\n внутри двора, или частного дома"
+                android:id="@+id/button53"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="15dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Отдельное строение с вывеской"
+                android:id="@+id/button54"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="10dp"
+                android:layout_margin="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id42"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Надомник&quot;"
+                android:id="@+id/textView274"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id43"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Есть посадочные места внутри торгового зала?"
+                android:id="@+id/textView275"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Да"
+                android:id="@+id/button55"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="15dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Нет"
+                android:id="@+id/button56"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="10dp"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id44"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Магазин-Кафе&quot;"
+                android:id="@+id/textView276"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id45"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Основной вид деятельности - продажа алкоголя\n (больше 95% всех товаров)"
+                android:id="@+id/textView277"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Да"
+                android:id="@+id/button57"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="15dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Нет"
+                android:id="@+id/button58"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="10dp"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id46"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Алкомаркет&quot;"
+                android:id="@+id/textView278"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id47"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Торговля в основном осуществляется оптом?"
+                android:id="@+id/textView279"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Да"
+                android:id="@+id/button59"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="15dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Нет"
+                android:id="@+id/button60"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="10dp"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id48"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Оптовая торговля - Склад (Ware house)&quot;"
+                android:id="@+id/textView280"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id49"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Какова площадь помещения?"
+                android:id="@+id/textView281"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Менее 100 кв.м."
+                android:id="@+id/button61"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="15dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Более 100 кв.м."
+                android:id="@+id/button62"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="10dp"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id50"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Малый продуктовый магазин (Small grocery)&quot;"
+                android:id="@+id/textView282"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id51"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Большой продуктовый магазин (Large grocery)&quot;"
+                android:id="@+id/textView283"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id52"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Где находится здание?"
+                android:id="@+id/textView284"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Временное строение без вывески\n внутри двора, или частного дома"
+                android:id="@+id/button63"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="15dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Отдельное временное строение с вывеской"
+                android:id="@+id/button64"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="10dp"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id53"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Надомник&quot;"
+                android:id="@+id/textView285"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id54"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Как осуществляется торговля?"
+                android:id="@+id/textView286"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Через окно"
+                android:id="@+id/button65"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="15dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Через прилавок"
+                android:id="@+id/button66"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="10dp"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id55"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Киоск&quot;"
+                android:id="@+id/textView287"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id56"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Площадь помещения?"
+                android:id="@+id/textView288"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="До 20 кв.м."
+                android:id="@+id/button67"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="15dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="От 20 до 40 кв.м."
+                android:id="@+id/button68"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="10dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="От 40 и более кв.м."
+                android:id="@+id/button69"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="15dp"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id57"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Павильон Малый&quot;"
+                android:id="@+id/textView289"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id58"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Павильон Средний&quot;"
+                android:id="@+id/textView290"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id59"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Павильон Большой&quot;"
+                android:id="@+id/textView291"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id60"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Где осуществляется торговля?"
+                android:id="@+id/textView292"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Автозаправочная станция"
+                android:id="@+id/button70"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="15dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Отдельное строение"
+                android:id="@+id/button71"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="10dp"
+                android:layout_margin="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id61"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;АЗС&quot;"
+                android:id="@+id/textView293"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id62"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Как осуществляется торговля?"
+                android:id="@+id/textView294"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Магазин самообслуживания"
+                android:id="@+id/button72"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="15dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Нет прямой продажи клиентам"
+                android:id="@+id/button73"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="10dp"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id63"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Распределительный Центр&quot;"
+                android:id="@+id/textView295"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id64"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Какова площадь / ассортимент / кол-во касс?"
+                android:id="@+id/textView296"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Площадь &lt;500 кв.м.\n Ассортимент >5000 наименований\n Менее 5-ти касс"
+                android:id="@+id/button74"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="15dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Площадь >500 кв.м.\n Ассортимент >10000 наименований\n Более 5-ти касс"
+                android:id="@+id/button75"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="10dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Площадь >1000 кв.м.\n Ассортимент >50000 наименований\n Более 20-ти касс"
+                android:id="@+id/button76"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="10dp"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id65"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Основная продажа алкоголь и табак? \n (более 95% товаров)"
+                android:id="@+id/textView297"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Да"
+                android:id="@+id/button77"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="15dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Нет"
+                android:id="@+id/button78"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="10dp"
+                android:layout_margin="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id66"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Алкогольный минимаркет&quot;"
+                android:id="@+id/textView298"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id67a"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Основная продажа осуществляется оптом?"
+                android:id="@+id/textView303"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Да"
+                android:id="@+id/button82"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="15dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Нет"
+                android:id="@+id/button83"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="10dp"
+                android:layout_margin="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id67b"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Минимаркет С&amp;C&quot;"
+                android:id="@+id/textView304"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id67"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Какова наценка на товар?"
+                android:id="@+id/textView299"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="&lt;= 25%"
+                android:id="@+id/button79"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="15dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="от 25% до 35%"
+                android:id="@+id/button80"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="10dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=">35%"
+                android:id="@+id/button81"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="10dp"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id68"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Минимаркет Дискаунтер&quot;"
+                android:id="@+id/textView300"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id69"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Минимаркет Стандарт&quot;"
+                android:id="@+id/textView301"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id70"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Минимаркет Премиум&quot;"
+                android:id="@+id/textView302"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id71"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Основная продажа осуществляется оптом?"
+                android:id="@+id/textView307"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Да"
+                android:id="@+id/button86"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="15dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Нет"
+                android:id="@+id/button87"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="10dp"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id72"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Супермаркет С&amp;C&quot;"
+                android:id="@+id/textView308"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id73"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Какова наценка на товар?"
+                android:id="@+id/textView309"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="&lt;= 25%"
+                android:id="@+id/button88"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="15dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="от 25% до 35%"
+                android:id="@+id/button89"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="10dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=">35%"
+                android:id="@+id/button90"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="10dp"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id74"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Супермаркет Дискаунтер&quot;"
+                android:id="@+id/textView310"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id75"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Супермаркет Стандарт&quot;"
+                android:id="@+id/textView311"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id76"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Супермаркет Премиум&quot;"
+                android:id="@+id/textView312"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id77"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Основная продажа осуществляется оптом?"
+                android:id="@+id/textView305"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Да"
+                android:id="@+id/button84"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="15dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Нет"
+                android:id="@+id/button85"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="10dp"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id78"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Гипермаркет С&amp;C&quot;"
+                android:id="@+id/textView306"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id79"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Какова наценка на товар?"
+                android:id="@+id/textView313"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="20dp"
+                android:layout_gravity="bottom"
+                android:minLines="5"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="&lt;= 25%"
+                android:id="@+id/button91"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="15dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="от 25% до 35%"
+                android:id="@+id/button92"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="10dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=">35%"
+                android:id="@+id/button93"
+                android:checked="false"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:background="@drawable/buttn_coolselector"
+                android:padding="10dp"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id80"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Гипермаркет Дискаунтер&quot;"
+                android:id="@+id/textView314"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id81"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Гипермаркет Стандарт&quot;"
+                android:id="@+id/textView315"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:id="@+id/id82"
+            android:visibility="invisible"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ваш Сегмент\n &quot;Гипермаркет Премиум&quot;"
+                android:id="@+id/textView316"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="25dp"
+                android:minLines="5"
+                android:background="@drawable/viewborder"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сбросить"
+        android:id="@+id/button16"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_gravity="center|bottom"
+        android:background="@drawable/buttn_background"
+        android:textStyle="bold|normal"
+        android:textColor="@color/White" />
+
+</LinearLayout>

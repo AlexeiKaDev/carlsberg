@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Отправка данных"
+                android:id="@+id/textView533"
+                android:layout_weight="1"
+                android:foregroundGravity="center|center_vertical|center_horizontal"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Статус"
+                android:id="@+id/textView550"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView551"
+            android:textColor="@color/carlgreen"
+            android:singleLine="false"
+            android:background="@drawable/border" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Визиты:"
+                android:id="@+id/textView535"
+                android:layout_weight="1"
+                android:foregroundGravity="center|center_vertical|center_horizontal"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ожидание отправки"
+                android:id="@+id/textView536"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Остатки:"
+                android:id="@+id/textView609"
+                android:layout_weight="1"
+                android:foregroundGravity="center|center_vertical|center_horizontal"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ожидание отправки"
+                android:id="@+id/textView610"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Дебеторка:"
+                android:id="@+id/textView542"
+                android:layout_weight="1"
+                android:foregroundGravity="center|center_vertical|center_horizontal"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ожидание отправки"
+                android:id="@+id/textView543"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="План продаж:"
+                android:id="@+id/textView544"
+                android:layout_weight="1"
+                android:foregroundGravity="center|center_vertical|center_horizontal"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ожидание отправки"
+                android:id="@+id/textView545"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MHL/Матрица брендов:"
+                android:id="@+id/textView538"
+                android:layout_weight="1"
+                android:foregroundGravity="center|center_vertical|center_horizontal"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ожидание отправки"
+                android:id="@+id/textView539"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Планограммы:"
+                android:id="@+id/textView548"
+                android:layout_weight="1"
+                android:foregroundGravity="center|center_vertical|center_horizontal"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ожидание отправки"
+                android:id="@+id/textView549"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Проверено планограмм:"
+                android:id="@+id/textView555"
+                android:layout_weight="1"
+                android:foregroundGravity="center|center_vertical|center_horizontal"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ожидание обновления"
+                android:id="@+id/textView556"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Бренд приоритеты:"
+                android:id="@+id/textView534"
+                android:layout_weight="1"
+                android:foregroundGravity="center|center_vertical|center_horizontal"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ожидание обновления"
+                android:id="@+id/textView537"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Проверено бренд приоритетов:"
+                android:id="@+id/textView588"
+                android:layout_weight="1"
+                android:foregroundGravity="center|center_vertical|center_horizontal"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ожидание обновления"
+                android:id="@+id/textView589"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Бомбы:"
+                android:id="@+id/textView540"
+                android:layout_weight="1"
+                android:foregroundGravity="center|center_vertical|center_horizontal"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ожидание отправки"
+                android:id="@+id/textView541"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Проверено бомб:"
+                android:id="@+id/textView553"
+                android:layout_weight="1"
+                android:foregroundGravity="center|center_vertical|center_horizontal"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ожидание обновления"
+                android:id="@+id/textView554"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Спец задачи:"
+                android:id="@+id/textView546"
+                android:layout_weight="1"
+                android:foregroundGravity="center|center_vertical|center_horizontal"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ожидание обновления"
+                android:id="@+id/textView547"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button105"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttn_background"
+            android:text="Синхронизация"
+            android:textSize="16dp"
+            android:textStyle="bold|normal"
+            android:gravity="center|center_vertical|center_horizontal"
+            android:foregroundGravity="center|center_vertical|center_horizontal"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_alignBottom="@+id/imageView1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button2"
+            android:layout_alignEnd="@+id/button2"
+            android:layout_gravity="bottom"
+            android:textColor="@color/White" />
+
+    </LinearLayout>
+
+</LinearLayout>

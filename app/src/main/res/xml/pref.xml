@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+ xmlns:android="http://schemas.android.com/apk/res/android">
+ <PreferenceCategory
+    android:title="@string/action_allsettings">
+<CheckBoxPreference
+ android:key="notifi"
+ android:summary="@string/notifi"
+ android:title="@string/key_notifi"
+    android:defaultValue="true">
+</CheckBoxPreference>
+</PreferenceCategory>
+
+ <PreferenceCategory
+     android:title="@string/action_plansettings">
+ <CheckBoxPreference
+ android:key="planuse"
+ android:summary="@string/notifi"
+ android:title="@string/planuse">
+</CheckBoxPreference>
+<EditTextPreference
+ android:key="useplan"
+ android:summary="@string/use_plan_summary"
+ android:title="@string/use_plan"
+ android:inputType="number"
+  android:dependency="planuse"
+ android:enabled="true">
+</EditTextPreference>
+<EditTextPreference
+ android:key="kegplan"
+ android:summary="@string/use_plan_summary"
+ android:title="@string/keg_plan"
+ android:inputType="number"
+  android:dependency="planuse"
+ android:enabled="true">
+</EditTextPreference> 
+<EditTextPreference
+ android:key="packingplan"
+ android:summary="@string/use_plan_summary"
+ android:title="@string/packing_plan"
+ android:inputType="number"
+  android:dependency="planuse"
+ android:enabled="true">
+</EditTextPreference> 
+
+</PreferenceCategory>
+
+</PreferenceScreen>

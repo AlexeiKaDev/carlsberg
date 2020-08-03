@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:gravity="top">
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Тип оборудования"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1.5"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner3"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView58"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Инвентарный номер"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1.5"
+                    android:layout_gravity="center_vertical|left"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView59"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Заводской номер"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1.5"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText2"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView66"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Кол-во рожков"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1.5"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner4"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView68"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Марка охладителя"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1.5"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner5"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView70"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Вид кобры"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1.5"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner6"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView72"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Бренд мебели"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1.5"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner7"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView74"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Бренд зонта"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1.5"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner8"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView76"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Вид мебели"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1.5"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner9"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView78"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Состояние"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1.5"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner10"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:id="@+id/textView80"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Количество"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1.5"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/editText4"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp" >
+
+                <TextView
+                    android:id="@+id/textView367"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Состояние \n оборудования"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1.5"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner16"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_weight="1.3"
+        android:layout_gravity="center|bottom"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/buttn_grey_background"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="@string/back"
+            android:textColor="@color/White"
+            android:textSize="16sp"
+            android:textStyle="normal|bold"
+            android:layout_marginRight="3dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/buttn_background"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="@string/save"
+            android:textColor="@color/White"
+            android:textSize="16sp"
+            android:textStyle="normal|bold"
+            android:layout_marginRight="3dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

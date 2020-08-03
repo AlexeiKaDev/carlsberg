@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView557"
+        android:textColor="@color/carlgreen"
+        android:singleLine="false"
+        android:background="@drawable/border" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Отклоненные фотографии"
+            android:id="@+id/textView559"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView558"
+        android:textColor="@color/carlgreen"
+        android:singleLine="false"
+        android:background="@drawable/border" />
+
+    <ListView
+        android:id="@+id/listView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:choiceMode="multipleChoice"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:scrollbarStyle="insideOverlay"
+        android:headerDividersEnabled="false"
+        android:footerDividersEnabled="false"
+        android:dividerHeight="2dp" />
+
+</LinearLayout>

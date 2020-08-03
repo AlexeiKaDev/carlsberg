@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:gravity="center|center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/listView2"
+            android:layout_width="match_parent"
+            android:layout_height="212dp"
+            android:layout_weight="0.23"
+            android:animateLayoutChanges="false"
+            android:choiceMode="multipleChoice"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:scrollbarStyle="insideOverlay"
+            android:smoothScrollbar="true"
+            android:scrollingCache="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/buttn_grey_background"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="@string/back"
+            android:textColor="@color/White"
+            android:textSize="16sp"
+            android:textStyle="normal|bold"
+            android:layout_marginRight="2dp" />
+
+        <Button
+            android:id="@+id/button98"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/buttn_background"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="Отправить фото"
+            android:textColor="@color/White"
+            android:textSize="16sp"
+            android:textStyle="normal|bold"
+            android:layout_marginRight="2dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

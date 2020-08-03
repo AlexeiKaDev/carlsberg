@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:background="@color/carlred"
+    android:orientation="vertical" >
+
+<TextView
+    android:id="@+id/mistake"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:layout_marginTop="20dp"
+    android:gravity="center_vertical|center_horizontal"
+    android:text="@string/Mistake"
+    android:textColor="@color/White"
+    android:textSize="35dp">
+
+</TextView>
+
+<TextView
+    android:id="@+id/line"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:gravity="center_vertical|center_horizontal"
+    android:text="------------------------"
+    android:textColor="@color/White"
+    android:textSize="20sp" >
+
+</TextView>
+
+<TextView
+    android:id="@+id/info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:layout_marginBottom="20dp"
+    android:gravity="center_vertical|center_horizontal"
+    android:text="@string/connection_fail"
+    android:textColor="@color/White"
+    android:textSize="18sp"
+    android:textStyle="bold|italic">
+
+</TextView>
+</LinearLayout>
